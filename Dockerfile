@@ -1,7 +1,7 @@
 FROM centos:latest
 ENV CONSOLETYPE=serial \
-        VERSION=12.4.2 \
-        PRODUCT_NAME=webhelpdesk-12.4.2.36-1.x86_64.rpm.gz \
+        VERSION=12.5.2 \
+        PRODUCT_NAME=webhelpdesk-12.5.2.84-1.x86_64.rpm.gz \
         GZIP_FILE=webhelpdesk.rpm.gz \
         RPM_FILE=webhelpdesk.rpm \
         WHD_HOME=/usr/local/webhelpdesk

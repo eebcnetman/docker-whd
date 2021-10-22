@@ -3,5 +3,5 @@ WHD inside a docker container connecting up to a external MS SQL Database. Suppo
 Starting the container
 
 ```
-docker run -d --mount source=whd,target=/usr/local/webhelpdesk -p 80:80 -p 443:443 --name whd eebcnetman/whd-12.7.4
+docker run -d --mount source=whd,target=/usr/local/webhelpdesk -p 80:80 -p 443:443 --name whd eebcnetman/eebc-whd-12.7.4
 ```
